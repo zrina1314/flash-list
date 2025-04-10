@@ -1,5 +1,5 @@
 {
-  "name": "@shopify/flash-list",
+  "name": "@zrina1314/flash-list",
   "version": "1.8.0",
   "keywords": [
     "react-native",
@@ -93,5 +93,6 @@
     "name": "rnflashlist",
     "type": "components",
     "jsSrcsDir": "./src/specs"
-  }
+  },
+  "packageManager": "yarn@4.8.1"
 }

@@ -152,6 +152,7 @@ export interface FlashListProps<TItem> extends ScrollViewProps {
    */
   contentContainerStyle?: ContentStyle;
 
+  stickyContentContainerStyle?: ContentStyle;
   /**
    * Draw distance for advanced rendering (in dp/px)
    */

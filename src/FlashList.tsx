@@ -333,8 +333,16 @@ class FlashList<T> extends React.PureComponent<
         stickyHeaderIndices={stickyHeaderIndices}
         style={
           this.props.horizontal
-            ? { ...this.getTransform() }
-            : { flex: 1, overflow: "hidden", ...this.getTransform() }
+            ? {
+                ...this.getTransform(),
+                ...this.props.stickyContentContainerStyle,
+              }
+            : {
+                flex: 1,
+                overflow: "hidden",
+                ...this.getTransform(),
+                ...this.props.stickyContentContainerStyle,
+              }
         }
       >
         <ProgressiveListView
