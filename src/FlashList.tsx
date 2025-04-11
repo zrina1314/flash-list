@@ -15,9 +15,11 @@ import {
   RecyclerListView,
   RecyclerListViewProps,
   WindowCorrectionConfig,
-} from "recyclerlistview";
+} from "recyclerlistview-gaw";
 // 从 recyclerlistview/sticky 导入粘性容器相关组件和类型
-import StickyContainer, { StickyContainerProps } from "recyclerlistview/sticky";
+import StickyContainer, {
+  StickyContainerProps,
+} from "recyclerlistview-gaw/sticky";
 
 // 导入自定义的自动布局视图组件
 import AutoLayoutView from "./native/auto-layout/AutoLayoutView";

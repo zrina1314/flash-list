@@ -1,6 +1,6 @@
 import { ScrollView, Text, View } from "react-native";
 import "@quilted/react-testing/matchers";
-import { ProgressiveListView } from "recyclerlistview";
+import { ProgressiveListView } from "recyclerlistview-gaw";
 import React from "react";
 
 import {

@@ -2608,7 +2608,7 @@ __metadata:
     react: "npm:18.3.1"
     react-native: "npm:0.76.5"
     react-test-renderer: "npm:18.2.0"
-    recyclerlistview: "npm:4.2.3"
+    recyclerlistview-gaw: "npm:^4.2.3"
     tslib: "npm:2.8.1"
     typescript: "npm:^4.7.4"
   peerDependencies:
@@ -8343,17 +8343,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"recyclerlistview@npm:4.2.3":
+"recyclerlistview-gaw@npm:^4.2.3":
   version: 4.2.3
-  resolution: "recyclerlistview@npm:4.2.3"
+  resolution: "recyclerlistview-gaw@npm:4.2.3"
   dependencies:
     lodash.debounce: "npm:4.0.8"
     prop-types: "npm:15.8.1"
     ts-object-utils: "npm:0.0.5"
   peerDependencies:
-    react: ">= 15.2.1"
-    react-native: ">= 0.30.0"
-  checksum: 10c0/40b8b948d09f560ce98842e9141d2ce7ee5677ae2c20f7e30de901136d7764a42cc4e5ba3242fca0934055d5fef99c5b03430fcba28d7cfc27155b4ef97f70d5
+    react: ">= 16.4.7"
+    react-native: ">= 0.49.5"
+  checksum: 10c0/7a04cf780679581aa916b4259809dd5a518d48c03955a76fbc95b9bf83f0151af75b11459fee5767eb7e8786110e15db73a2fd73c99f5b5f0be3a162f76d2489
   languageName: node
   linkType: hard
 

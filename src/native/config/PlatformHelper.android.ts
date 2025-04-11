@@ -1,4 +1,4 @@
-import { BaseItemAnimator } from "recyclerlistview";
+import { BaseItemAnimator } from "recyclerlistview-gaw";
 
 const PlatformConfig = {
   defaultDrawDistance: 250,

@@ -1,7 +1,7 @@
 import React from "react";
 import { View } from "react-native";
-import { BaseItemAnimator } from "recyclerlistview";
-import { DefaultJSItemAnimator } from "recyclerlistview/dist/reactnative/platform/reactnative/itemanimators/defaultjsanimator/DefaultJSItemAnimator";
+import { BaseItemAnimator } from "recyclerlistview-gaw";
+import { DefaultJSItemAnimator } from "recyclerlistview-gaw/dist/reactnative/platform/reactnative/itemanimators/defaultjsanimator/DefaultJSItemAnimator";
 
 const PlatformConfig = {
   defaultDrawDistance: 2000,

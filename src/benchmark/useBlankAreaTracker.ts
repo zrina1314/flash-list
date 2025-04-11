@@ -1,5 +1,5 @@
 import React, { useCallback, useRef } from "react";
-import { RecyclerListView, RecyclerListViewProps } from "recyclerlistview";
+import { RecyclerListView, RecyclerListViewProps } from "recyclerlistview-gaw";
 
 import { BlankAreaEvent } from "../native/auto-layout/AutoLayoutView";
 import FlashList from "../FlashList";

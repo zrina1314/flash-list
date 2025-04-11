@@ -9,6 +9,7 @@ import {
 
 import { BlankAreaEventHandler } from "./native/auto-layout/AutoLayoutView";
 import ViewToken from "./viewability/ViewToken";
+import { LayoutListener } from "recyclerlistview-gaw/dist/reactnative/core/layoutmanager/LayoutListenerManager";
 
 export interface ListRenderItemInfo<TItem> {
   item: TItem;
@@ -333,4 +334,6 @@ export interface FlashListProps<TItem> extends ScrollViewProps {
    * `false` again.
    */
   disableAutoLayout?: boolean;
+
+  layoutListener?: LayoutListener;
 }

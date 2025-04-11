@@ -3,7 +3,7 @@ import {
   GridLayoutProvider,
   Layout,
   LayoutManager,
-} from "recyclerlistview";
+} from "recyclerlistview-gaw";
 
 import { FlashListProps } from "./FlashListProps";
 import { AverageWindow } from "./utils/AverageWindow";
